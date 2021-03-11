@@ -36,4 +36,4 @@ def deletedata():
     r = requests.delete(url=URL, data=json_data)
     data = r.json()
     print(data)
-deletedata()
+# deletedata()
